@@ -20,7 +20,7 @@ public class Main {
 		Path resolvedPath = path.resolve("fichero.txt");
 		System.out.println(resolvedPath);
 
-		// System path
+		// System path of this package
 		Path systemPath = Paths.get(System.getProperty("user.dir"));
 		System.out.println(systemPath);
 	}
